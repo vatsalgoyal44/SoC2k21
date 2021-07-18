@@ -3,7 +3,7 @@
 Theme : to develop a face recognition app capable of detecting all faces included in the image, cropping the faces and extracting their features, and comparing the faces for clustering pictures with same faces. The app would also be capable to detecting faces and objects in videos.
 <br />
 ## Phase 1
-- Learnt basics of Python and working with Google Colab. [Link to Python tutorials](https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3);  [Link to Google Colab tutorial](https://www.youtube.com/watch?v=i-HnvsehuSw&t=359s)<br />
+- Learnt basics of Python and working with Google Colab.
 - Setted up Anaconda with help from *Python for Deep Learning* course and learnt working with Jupyter notebooks
 - Learnt basics of Machine Learning from *Python for Deep Learning* course.
 - Learnt to work with NumPy, Pandas and Matplotlib libraries. Did exercises in the course folder related to Pandas and Matplotlib. Practice notebooks uploaded. 
@@ -24,5 +24,5 @@ Theme : to develop a face recognition app capable of detecting all faces include
   - We create 128-d embeddings for each face in the dataset and then use that to recognize the faces in images and videos.
   - Application can also create a montage of similar faces in the database, this can be used to sort and rename the files in the database.
   - The application also has object detection. Application uses pretrained YOLO model to detect objects in images and videos. 
-  - The video used for testing was [this](https://drive.google.com/file/d/1r7A5Nnbad-t68xwXWXt8Jjy9ji8vmI_5/view?usp=sharing) and [this](https://drive.google.com/file/d/1BkNqGltWjPpISnan32VFT-giJOhFkBJm/view?usp=sharing) is the result I got.
-  - For object detection, the model can be downloaded from 
+  - The video used for testing facial recognition was [this](https://drive.google.com/file/d/1r7A5Nnbad-t68xwXWXt8Jjy9ji8vmI_5/view?usp=sharing) and [this](https://drive.google.com/file/d/1BkNqGltWjPpISnan32VFT-giJOhFkBJm/view?usp=sharing) is the result I got.
+  - For object detection, the model can be downloaded from [here](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5). Save the model in your Google Drive and enter the address of the directory when the application asks. The video used for testing can be downloaded from [here](https://github.com/OlafenwaMoses/IntelliP/raw/master/traffic-mini.mp4), the result is [this](https://drive.google.com/file/d/1-UL8k8vqVHpDZ5sTmhXJdG-sfTOYaCTM/view?usp=sharing).
